@@ -14,17 +14,22 @@ import { PaginasModule } from "./paginas/paginas.module";
 //Rutas
 import { APP_ROUTES } from './app.routes';
 
+//temporal
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+
   ],
   imports: [
    //AppRoutingModule,
     BrowserModule,
     APP_ROUTES,
     PaginasModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
