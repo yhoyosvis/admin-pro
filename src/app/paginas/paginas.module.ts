@@ -15,6 +15,7 @@ import { ChartsModule } from 'ng2-charts';
 //temporal
 import { IncrementadorComponent } from '../componentesP/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../componentesP/grafica-dona/grafica-dona.component';
+import { ConfiguracionesCuentaComponent } from './configuraciones-cuenta/configuraciones-cuenta.component';
 
 
 
@@ -25,7 +26,8 @@ import { GraficaDonaComponent } from '../componentesP/grafica-dona/grafica-dona.
     ProgresoComponent,
     Graficas1Component,
     IncrementadorComponent,
-    GraficaDonaComponent
+    GraficaDonaComponent,
+    ConfiguracionesCuentaComponent
   ],
 
   imports:[
