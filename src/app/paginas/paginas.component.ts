@@ -12,5 +12,4 @@ export class PaginasComponent implements OnInit {
   ngOnInit() {
     init_plugins()
   }
-
 }

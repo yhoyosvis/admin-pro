@@ -11,7 +11,9 @@ export class MenulateralService {
       submenu: [
         {  titulo: 'Tablero', url: '/principal' },
         {  titulo: 'BarrasProgreso', url: '/progreso' },
-        {  titulo: 'graficas', url: '/graficas1' },
+        {  titulo: 'Graficas', url: '/graficas1' },
+        {  titulo: 'Promesas', url: '/promesas' },
+        {  titulo: 'RXJS', url: '/rxjs' },
 
       ]
     }
