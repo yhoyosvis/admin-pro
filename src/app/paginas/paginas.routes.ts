@@ -6,11 +6,13 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { ConfiguracionesCuentaComponent } from './configuraciones-cuenta/configuraciones-cuenta.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { SesionGuard } from '../servicios/index.service';
 
 
  const paginasRoutes: Routes = [
     {
         path: '', component: PaginasComponent,
+        canActivate:[SesionGuard],
         children: [
             { path: 'principal', component: PrincipalComponent, data: {titulo: 'Principal'} },
             { path: 'progreso', component: ProgresoComponent, data: {titulo: 'Progreso'} },

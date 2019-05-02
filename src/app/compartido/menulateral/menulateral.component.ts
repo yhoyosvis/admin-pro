@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenulateralService } from 'src/app/servicios/index.service';
+import { MenulateralService, UsuarioService } from 'src/app/servicios/index.service';
 
 @Component({
   selector: 'app-menulateral',
@@ -8,7 +8,7 @@ import { MenulateralService } from 'src/app/servicios/index.service';
 })
 export class MenulateralComponent implements OnInit {
 
-  constructor( public _menulateral: MenulateralService ) { }
+  constructor( public _menulateral: MenulateralService, public _usuarioServicio: UsuarioService ) { }
 
   ngOnInit() {
   }

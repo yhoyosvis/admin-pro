@@ -1,4 +1,7 @@
-export { CompartidoService } from "./compartido.service";
-export { ConfiguracionesService } from "./configuraciones.service";
-export { MenulateralService } from "./menulateral.service";
+export { UsuarioService } from './usuario/usuario.service';
+export { CompartidoService } from "./compartido/compartido.service";
+export { ConfiguracionesService } from "./configuraciones/configuraciones.service";
+export { MenulateralService } from "./compartido/menulateral.service";
+export { SesionGuard } from "./guards/sesion.guard"
+
 

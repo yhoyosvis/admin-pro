@@ -10,12 +10,15 @@ import { RegisterComponent } from './login/register.component';
 
 //Moduloss
 import { PaginasModule } from "./paginas/paginas.module";
+import { ServicioModule } from "./servicios/servicio.module";
+
 
 //Rutas
 import { APP_ROUTES } from './app.routes';
 
 //temporal
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2'
 
 @NgModule({
   declarations: [
@@ -27,9 +30,12 @@ import { FormsModule } from '@angular/forms';
   imports: [
    //AppRoutingModule,
     BrowserModule,
+    ServicioModule,
     APP_ROUTES,
     PaginasModule,
-    FormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    SweetAlert2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

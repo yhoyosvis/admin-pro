@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UsuarioService } from 'src/app/servicios/index.service';
 
 @Component({
   selector: 'app-cabecera',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CabeceraComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _usuarioServicio: UsuarioService) { }
 
   ngOnInit() {
   }
+
+  
 
 }
