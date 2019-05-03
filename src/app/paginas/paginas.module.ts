@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { FormsModule } from "@angular/forms";
 
@@ -12,12 +13,16 @@ import { PAGINAS_ROUTES } from './paginas.routes';
 //graficas
 import { ChartsModule } from 'ng2-charts';
 
+//pipes module
+import { PipesModule } from "../pipes/pipes.module";
+
 //temporal
 import { IncrementadorComponent } from '../componentesP/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../componentesP/grafica-dona/grafica-dona.component';
 import { ConfiguracionesCuentaComponent } from './configuraciones-cuenta/configuraciones-cuenta.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 
@@ -31,14 +36,17 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     GraficaDonaComponent,
     ConfiguracionesCuentaComponent,
     PromesasComponent,
-    RxjsComponent
+    RxjsComponent,
+    PerfilComponent
   ],
 
   imports:[
+    CommonModule,
     CompartidoModule,
     PAGINAS_ROUTES,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+    PipesModule
   ],
 
   exports: [
@@ -46,7 +54,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     PrincipalComponent,
     ProgresoComponent,
     Graficas1Component,
-    CompartidoModule
+
   ],
 })
 export class PaginasModule { }

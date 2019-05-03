@@ -6,7 +6,8 @@ import{
   MenulateralService,
   CompartidoService,
   UsuarioService,
-  SesionGuard
+  SesionGuard,
+  SubirArchivoService
 
 } from './index.service'
 import { HttpClientModule } from '@angular/common/http';
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     MenulateralService,
     CompartidoService,
     UsuarioService,
+    SubirArchivoService,
     SesionGuard
   ]
 })

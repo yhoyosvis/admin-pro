@@ -5,6 +5,8 @@ import { MenulateralComponent } from './menulateral/menulateral.component';
 import { MigasdepanComponent } from './migasdepan/migasdepan.component';
 import { PaginanoencontradaComponent } from './paginanoencontrada/paginanoencontrada.component';
 import { RouterModule } from "@angular/router";
+//pipes
+import { PipesModule } from '../pipes/pipes.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { RouterModule } from "@angular/router";
   ],
   imports: [
     RouterModule,
-    CommonModule
+    CommonModule,
+    PipesModule
   ],
   exports:[
     CabeceraComponent,

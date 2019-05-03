@@ -7,6 +7,7 @@ import { ConfiguracionesCuentaComponent } from './configuraciones-cuenta/configu
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { SesionGuard } from '../servicios/index.service';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
  const paginasRoutes: Routes = [
@@ -19,6 +20,7 @@ import { SesionGuard } from '../servicios/index.service';
             { path: 'graficas1', component: Graficas1Component, data: {titulo: 'Graficas'} },
             { path: 'promesas', component: PromesasComponent, data: {titulo: 'Promesas'} },
             { path: 'configuraciones-cuenta', component: ConfiguracionesCuentaComponent, data: {titulo: 'Temas'} },
+            { path: 'perfil', component: PerfilComponent, data: {titulo: 'Perfil de Usuario'} },
             { path: 'rxjs', component: RxjsComponent, data: {titulo: 'RxJs'} },
             { path: '', redirectTo: '/principal', pathMatch: 'full' },
         ]

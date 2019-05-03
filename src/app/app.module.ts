@@ -18,13 +18,15 @@ import { APP_ROUTES } from './app.routes';
 
 //temporal
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2'
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
+   
 
   ],
   imports: [
@@ -35,7 +37,8 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2'
     PaginasModule,
     ReactiveFormsModule,
     FormsModule,
-    SweetAlert2Module
+    SweetAlert2Module,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
