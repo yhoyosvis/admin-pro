@@ -4,6 +4,6 @@ export { ConfiguracionesService } from "./configuraciones/configuraciones.servic
 export { MenulateralService } from "./compartido/menulateral.service";
 export { SesionGuard } from "./guards/sesion.guard";
 export { SubirArchivoService } from "./subirArchivo/subir-archivo.service";
-
+export {ModalSubirService} from "../componentesP/modal-subir/modal-subir.service"
 
 

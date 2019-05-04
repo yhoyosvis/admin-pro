@@ -23,6 +23,8 @@ import { ConfiguracionesCuentaComponent } from './configuraciones-cuenta/configu
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { ModalSubirComponent } from '../componentesP/modal-subir/modal-subir.component';
 
 
 
@@ -37,7 +39,9 @@ import { PerfilComponent } from './perfil/perfil.component';
     ConfiguracionesCuentaComponent,
     PromesasComponent,
     RxjsComponent,
-    PerfilComponent
+    PerfilComponent,
+    UsuariosComponent,
+    ModalSubirComponent
   ],
 
   imports:[

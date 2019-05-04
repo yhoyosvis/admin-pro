@@ -13,10 +13,10 @@ export class SesionGuard implements CanActivate {
   }
   canActivate() {
     if(this._usuarioServicio.estaLogueado()){
-      console.log('paso por guard');
+     
       return true;
     }else{
-      console.log('bloqueado');
+     
       this.router.navigate(['/login']);
       return false;
     }

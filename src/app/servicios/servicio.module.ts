@@ -7,7 +7,8 @@ import{
   CompartidoService,
   UsuarioService,
   SesionGuard,
-  SubirArchivoService
+  SubirArchivoService,
+  ModalSubirService
 
 } from './index.service'
 import { HttpClientModule } from '@angular/common/http';
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     CompartidoService,
     UsuarioService,
     SubirArchivoService,
-    SesionGuard
+    SesionGuard,
+    ModalSubirService
   ]
 })
 export class ServicioModule { }
