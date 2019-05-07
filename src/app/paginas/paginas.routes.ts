@@ -9,6 +9,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 import { SesionGuard } from '../servicios/index.service';
 import { PerfilComponent } from './perfil/perfil.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { MedicoComponent } from './medicos/medico.component';
 
 
 
@@ -28,6 +31,10 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 
             //mantenimientos
             { path: 'usuarios', component: UsuariosComponent, data: {titulo: 'Mantenimiento de usuarios'} },
+            { path: 'hospitales', component: HospitalesComponent, data: {titulo: 'Mantenimiento de hospitales'} },
+            { path: 'medicos', component: MedicosComponent, data: {titulo: 'Mantenimiento de medicos'} },
+            { path: 'medico/:id', component: MedicoComponent, data: {titulo: 'Actualizar medico'} },
+
 
             { path: '', redirectTo: '/principal', pathMatch: 'full' },
         ]

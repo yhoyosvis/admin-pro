@@ -25,6 +25,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ModalSubirComponent } from '../componentesP/modal-subir/modal-subir.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
+import { MedicosComponent } from './medicos/medicos.component';
+import { MedicoComponent } from './medicos/medico.component';
 
 
 
@@ -41,7 +44,10 @@ import { ModalSubirComponent } from '../componentesP/modal-subir/modal-subir.com
     RxjsComponent,
     PerfilComponent,
     UsuariosComponent,
-    ModalSubirComponent
+    ModalSubirComponent,
+    HospitalesComponent,
+    MedicosComponent,
+    MedicoComponent
   ],
 
   imports:[
